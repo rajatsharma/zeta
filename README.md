@@ -1,10 +1,17 @@
 # Lectro
 
-> Websocket server which listens to postgres changes and notify frontend clients via websockets
+> WebSocket server which listens to postgres changes and notifies frontend clients via websockets
+
+## Setup
+
+```bash
+pnpm install
+pnpm build
+```
 
 ## Usage
 
-- Start the server using `cargo run`.
+- Start the server using `pnpm start`.
 - Open page `http://127.0.0.1:8080` in the browser.
 - Open Console and paste this code
 
